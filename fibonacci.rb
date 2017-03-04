@@ -8,4 +8,4 @@ p fibs(7)
 def fibs_rec(n, ary = [0,1])
   n <= ary.length ? ary[0...n] : fibs_rec(n, (ary << ary[-1] + ary[-2]))
 end
-p fibs_rec(11)
+p fibs_rec(10)
